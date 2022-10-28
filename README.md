@@ -1,0 +1,1 @@
+This is a portfolio about myself which describes a little bit about me. It comprises of a brief background highlighting my likes/dislikes, interests and goals; as well as my favourite music, books and some information about my family life.
