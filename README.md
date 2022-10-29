@@ -1,8 +1,5 @@
 This is a portfolio about myself which describes a little bit about me. It comprises of a brief background highlighting my likes/dislikes, interests and goals; as well as my favourite music, books and some information about my family life.
 
-
-
-
 When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
 
 When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
