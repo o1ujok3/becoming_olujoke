@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    height: 100%;
+    width: 100%;
+}
+
+#mains {
+    display: grid;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 500px; 
+    grid-template: repeat(3, 100px)/repeat(2, 100px);
+    grid-template-areas: 
+    "header header"
+    "main_1 main_2"
+    "footer_1 footer_2";
+} 
+
+#intro {
+    grid-area: header;
+}
+#my_employment { 
+    grid-area: main_1; 
+}
+
+#hobbies {
+    grid-area: main_2;
+}
+
+#work_history {
+    grid-area: footer_1;
+}
+
+#applications {
+    grid-area: footer_2;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+}
