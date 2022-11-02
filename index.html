@@ -22,9 +22,9 @@
         <nav>
           <ul id="visited">
             <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="employment.html">Employment</a></li>
-            <li><a href="qualifications.html">Qualifications</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#">Employment</a></li>
+            <li><a href="#">Qualifications</a></li>
+            <li><a href="#">Projects</a></li>
             <li><a href="#">Contact Me</a></li>
           </ul>
         </nav>
@@ -35,6 +35,12 @@
       <div class="container grid">
         <div class="showcase-text">
           <h1>About Me</h1>
+          <!--
+          <img
+            class="self-image"
+            src="DSC_0085 Large.jpeg"
+            alt="Picture of Olujoke"
+          />-->
           <p>
             Olujoke is an experienced Public Health Specialist with a
             demonstrated history of working in the hospital & health care
@@ -44,7 +50,51 @@
             Anglia Ruskin University and a PhD in Public Health at Queen’s
             University Belfast.
           </p>
-
+          <a href="aboutme.html" class="button">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Request a consultation</h2>
+          <form>
+            <div class="form-control">
+              <input
+                type="text"
+                name="firstname"
+                placeholder="First name"
+                required
+              />
+              <input
+                type="text"
+                name="surname"
+                placeholder="Surname"
+                required
+              />
+            </div>
+            <div class="form-control info">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control info">
+              <input
+                type="text"
+                name="email"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="form-control info">
+              <input
+                type="text"
+                name="telephone"
+                placeholder="Telephone number"
+                required
+              />
+            </div>
+            <button value="send" class="primary-button">Submit</button>
+          </form>
         </div>
       </div>
     </section>

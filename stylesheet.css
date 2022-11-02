@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+/*Foundational layout*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+:root {
+    --primary-color: #9acd32;
+}
 
 * {
     box-sizing:border-box;
@@ -7,7 +12,7 @@
 }
 
 body {
-    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     color: black;
     line-height: 1.5;
 }
@@ -22,9 +27,13 @@ a {
 }
 
 h1, h2 {
-    font-weight: 300;
-    line-height: 1.2;
+    font-weight: 200;
+    line-height: 1.3;
     margin: 10px 0;
+}
+
+.logo {
+    padding:5%;
 }
 
 p {
@@ -35,8 +44,9 @@ img {
     width: 100%;
 }
 
+/*navbar styling*/
 .navbar {
-    background-color: yellowgreen;
+    background-color: var(--primary-color);
     color: white;
     height: 70px;
 }
@@ -46,8 +56,8 @@ img {
 }
 
 .navbar a {
-    color: rgb(11, 2, 82);
-    padding: 5px;
+    color: rgb(6, 5, 15);
+    padding: 7px;
     margin: 0 10px;
 }
 
@@ -59,6 +69,66 @@ img {
     justify-content: space-between;
 }
 
+/*Showcase*/
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: black;
+    position: relative;
+}
+
+/*
+.self-image {
+    position: relative;
+   left :700px;
+}
+*/
+
+.showcase h1 {
+    font-size: 40px;
+    margin: auto;
+}
+
+.showcase p {
+    height:275px;
+    margin: 15px 0;
+    text-align:justify;
+    padding: 12%;
+}
+
+.showcase .grid {
+    overflow: visible;
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+.showcase-form {
+    position: relative;
+    top: 60px;
+    height: 375px; 
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+}
+
+.showcase-form .form-control {
+    margin: 25px 0;
+}
+
+.showcase-form input[type='text'], 
+.showcase-form input[type='email'] {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.showcase-form input:focus {
+    outline: none;
+}
+
+/*Utilities*/
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -67,12 +137,31 @@ img {
 
 }
 
+.card {
+    background-color: white;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 
 /*
 * {
