@@ -4,141 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="stylesheet.css" />
     <title>Naturaliche | Becoming Olujoke</title>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
-    <!--Insert navbar here-->
-    <div class="navbar">
-      <div class="container flex">
-        <h1 class="logo">Naturaliche</h1>
-        <nav>
-          <ul id="visited">
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="#">Employment</a></li>
-            <li><a href="#">Qualifications</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+    <header class="navbar">
+      <div>
+      <h1 class="header-name">Olujoke Fakoya</h1>
+      <nav>
+        <div class="profiles">
+          <img src="DSC_0085 Large.jpeg" alt="Image of Olujoke Fakoya" />
+          <p class="profile-text">Hello! My name is Olujoke Fakoya and I'm a junior Front-End Developer. Welcome to my online portfolio!</p>
+          <ul class="social-media-icons">
+            <li>
+             <a href="https://github.com/o1ujok3" target="_blank"> <img class="icons" src="./25231.png" alt="GitHub icon">
+             </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/olujoke-fakoya-3a616a106/" target="_blank">
+                <img class="icons" src="./174857.png" alt="LinkedIn icon">
+              </a>
+            </li>
           </ul>
-        </nav>
-      </div>
-    </div>
-    <!--Showcase area-->
-    <section class="showcase">
-      <div class="container grid">
-        <div class="showcase-text">
-          <h1>About Me</h1>
-          <!--
-          <img
-            class="self-image"
-            src="DSC_0085 Large.jpeg"
-            alt="Picture of Olujoke"
-          />-->
-          <p>
-            Olujoke is an experienced Public Health Specialist with a
-            demonstrated history of working in the hospital & health care
-            industry. Skilled in Microsoft Word, Public Speaking, Project
-            Management, Teamwork, and Team Leadership. Strong operations
-            professional with a Bachelor of Science (BSc) in Public Health from
-            Anglia Ruskin University and a PhD in Public Health at Queen’s
-            University Belfast.
-          </p>
-          <a href="aboutme.html" class="button">Read More</a>
         </div>
-        <div class="showcase-form card">
-          <h2>Request a consultation</h2>
+        <div class="aboutme-section">
+          <a href="#aboutme">
+            <img class="icons" src="./user_female-512.webp" alt="female user icon">About Me
+          </a>
+          <a href="#Projects">
+            <img src="./246821-200.png" alt="webdeveloper-icon">Projects
+          </a>
+          <a href="#contactme">
+            <img src="./call_email_phone_call_email-512.webp" alt="phone-email contact icon">
+            Contact Me
+          </a>
+        </div>
+      </nav>
+      </div>
+    </header>
+  </div>
+    <main>
+      <section id="about-me-section" class="page-section">
+        <div class="aboutme-text">
+          <h1>Olujoke Fakoya</h1>
+          <h3>Junior Front-End Developer</h3>
+          <p>
+            I am a junior Front-End Developer. Want to find out more about how I can assist you with your project? Check out my portfolio!
+          </p>
+          <a href="#Projects">View Portfolio</a>
+          <a href="#contactme">Get in touch!</a>
+        </div>
+        <div class="aboutme-pic">
+          
+        </div>
+        <h3 id="aboutme">About Me</h3>
+        <div>
+          <div class="image">
+            <img src="DSC_0085 Large.jpeg" alt="Image of Olujoke Fakoya" />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            perspiciatis accusamus nostrum, velit deleniti eveniet magni
+            necessitatibus illo! Reiciendis delectus labore accusantium, sequi
+            voluptate fugit, sunt deserunt deleniti repudiandae exercitationem
+            maxime blanditiis repellendus tempora ex. Temporibus eveniet natus
+          </p>
+        </div>
+      </section>
+      <section id="Projects" class="page-section">
+        <h2 id="aboutme">About Me</h2>
+        <div>
+          <p>
+            Experienced Public Health Specialist with a demonstrated history of
+            working in the hospital & health care industry. Skilled in Microsoft
+          </p>
+        </div>
+      </section>
+      <section class="page-section">
+        <h2>Projects</h2>
+        <div>
+          <div class="box box-one">Furniture store</div>
+          <div class="box box-two">Jakes Eatery</div>
+          <div class="box box-three">Asian's Kitchen Menu</div>
+          <div class="box box-four">Project 4</div>
+        </div>
+      </section>
+      <section class="page-section">
+        <h2 id="contactme">Get In Touch</h2>
+        <div>
           <form>
-            <div class="form-control">
-              <input
-                type="text"
-                name="firstname"
-                placeholder="First name"
-                required
-              />
-              <input
-                type="text"
-                name="surname"
-                placeholder="Surname"
-                required
-              />
-            </div>
-            <div class="form-control info">
-              <input
-                type="text"
-                name="company"
-                placeholder="Company Name"
-                required
-              />
-            </div>
-            <div class="form-control info">
-              <input
-                type="text"
-                name="email"
-                placeholder="Email address"
-                required
-              />
-            </div>
-            <div class="form-control info">
-              <input
-                type="text"
-                name="telephone"
-                placeholder="Telephone number"
-                required
-              />
-            </div>
-            <button value="send" class="primary-button">Submit</button>
+            <fieldset>
+              <label for="first-name"
+                >Enter Your First Name:
+                <input id="first-name" type="text" required />
+              </label>
+              <label for="last-name"
+                >Enter Your Last Name:
+                <input id="last-name" type="text" required />
+              </label>
+              <label for="email"
+                >Enter Your Email: <input id="email" type="email" required />
+              </label>
+              <label for="company-name"
+                >Enter Your Company Name:
+                <input id="company-name" type="text" required />
+              </label>
+              <fieldset>
+                <label for=""
+                  ><input type="radio" name="person-type" />Recruiter</label
+                >
+                <label for=""
+                  ><input type="radio" name="person-type" />Consultant</label
+                >
+              </fieldset>
+              <label for="request"
+                >Enter Your Request: <input id="request" type="text" required />
+              </label>
+            </fieldset>
+            <input type="submit" value="Submit" />
           </form>
         </div>
-      </div>
-    </section>
-  </body>
-  <!--<body>
-    <header>
-      <nav>
-        <a href="#about_me">About Me</a>
-        <a href="#my_employment">My Employment</a>
-        <a href="#my_qualifications">My Qualifications</a>
-        <a href="#my_hobbies">My Hobbies</a>
-        <a href="#contact_me">Contact Me</a>
-      </nav>
-      <h1>Becoming Olujoke</h1>
-      <img src="DSC_0085 Large.jpeg" alt="Olujoke Fakoya" />
-    </header>
-    <main id="mains">
-      <section id="intro">
-        <div id="about_me" target="_blank">About Me</div>
-        <img src="pexels-miguel-á-padriñán-2882509.jpg" alt="About me" />
-      </section>
-      <section id="work_history">
-        <div id="my_employment">My Employment</div>
-        <img src="pexels-vojtech-okenka-392018.jpg" alt="Work" />
-      </section>
-      <section id="cv">
-        <div id="my_qualifications">My Qualifications</div>
-        <img src="pexels-emily-ranquist-1205651.jpg" alt="Graduation" />
-      </section>
-      <section id="hobbies">
-        <div id="my_hobbies">My Hobbies</div>
-        <img src="pexels-craig-adderley-1767016.jpg" alt="Art and craft" />
-      </section>
-      <section id="applications">
-        <div id="projects">My Hobbies</div>
-        <img src="pexels-karol-d-323645.jpg" alt="close-up of a cable car" />
       </section>
     </main>
-    <footer id="footer">
-      <section id="contact">
-        <div id="contact_me">Contact Me</div>
-        <img src="pexels-pixabay-263564.jpg" alt="Black Iphone" />
-      </section>
-      <a href="#">Jump to top</a>
+    <footer class="footerbar">
+      <p>&copy; 2022</p>
+      <p>Olujoke Fakoya</p>
     </footer>
-  </body>-->
+  </body>
 </html>
